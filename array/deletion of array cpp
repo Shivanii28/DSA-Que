@@ -26,7 +26,7 @@ int printarray(int arr[], int n)
 
     for (int i = 0; i < n; i++)
     {
-        cout << "array insertion" << "  " << arr[i] << endl;
+        cout << arr[i] << endl;
     }
 }
 int main()
@@ -37,18 +37,18 @@ int main()
 
     for (int i = 0; i < f; i++)
     {
-        cout << "enter the element" << endl;
+        cout << "enter  element" << endl;
         cin >> num[i];
     }
 
     int del;
 
-    cout << "enter the elemnt you want to dlete" << endl;
+    cout << "enter the elemnt you want to delete" << endl;
     cin >> del;
 
     deletion(num, f, del);
     printarray(num, f);
-    // cout<<deletion(num,n);
+   
 
     return 0;
 }
